@@ -1,0 +1,31 @@
+
+.block-imageHeaderContact{
+    min-height: 25rem;
+    width: 100%;
+    background-image: url("../img/contact.png");
+    background-size: cover;
+    background-position: bottom;
+    border-bottom: 10px solid $color-yellow;
+}
+.Contact{
+    background: $color-white;
+    
+
+    .contact-adresse{
+        margin-top: 20px;
+        h3{
+            @include medium-text;
+            font-size: 1.2rem;
+        }
+        p{
+            @include small-text;
+            margin-bottom: .4rem;
+            font-size: .8rem;
+            i{
+                margin-right: 5px;
+            }
+        }
+     
+    }
+
+}

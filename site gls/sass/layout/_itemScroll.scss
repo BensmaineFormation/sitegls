@@ -1,0 +1,71 @@
+
+.content-scroll , .content-list , .content-list-cartResalisation{
+
+    height:40rem;
+    width: 85%;
+    overflow:auto;
+    margin: 0 auto;
+    &::-webkit-scrollbar {
+        width: 1em;
+    }
+     
+    &::-webkit-scrollbar-track {
+      background-color: #5555;  
+    }
+     
+    &::-webkit-scrollbar-thumb {
+        background-color: $color-bleu;  
+      outline: 1px solid slategrey;
+    }
+
+    .item-scroll{
+        min-height: 15rem;
+        background-color: #f2f2f3;
+        margin: 0 auto;
+        padding: 10px 0px 10px 0px;
+        margin-top: 0.5rem;
+
+        .item-scroll-item{
+            img{
+                max-width: 17rem;
+                max-height: 17rem;
+               
+
+            }
+
+            .item-date{
+                @include big-text-title;
+                text-transform: uppercase;
+            }
+            .item-title{
+                @include big-text-title;
+                text-transform: uppercase; 
+
+                @include response(tab-port)
+                {   
+                    font-size: 1rem;
+                }
+            }
+            .item-para{
+                @include small-text;
+                font-size: 0.9rem;
+                text-align: justify;
+                @include response(tab-port)
+                {   
+                    font-size: .7rem;
+                }
+
+
+            }
+            .btn{
+                float: right;
+                color:$color-white;
+                background-color: $color-bleu;
+            }
+
+           
+
+        }
+    }
+    
+}

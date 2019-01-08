@@ -1,0 +1,70 @@
+
+// Styling the default Slick dots
+
+.slick-dots {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 1rem 0;
+    bottom: 1.5rem !important;
+    list-style-type: none;
+    padding-right: 5em !important;
+    bottom: 20px !important;
+		li {
+			margin: 0 0.10rem;
+		}
+	
+		button {
+			display: block;
+			width: 10px !important;
+			height: 10px !important;
+			padding: 0;
+			
+			border: none;
+			border-radius: none;
+			background-color: #d7d7d6 !important;
+			
+			text-indent: -9999px;
+		}
+	
+		li.slick-active button {
+			background-color: $color-white !important;
+		}
+	
+}
+
+.slide__caption{
+    background: #1d212485;
+    min-height: 5.5rem;
+    padding-left: 5em;
+    position: relative;
+    margin-top: -6rem;
+    border-bottom: 10px solid $color-yellow;
+
+    img{
+        height: 60px !important;
+        width: 7%!important;
+        float: left;
+        margin-right: 1rem;
+    }
+    p{
+        @include small-text ;
+        color:$color-white;
+        width: 76%;
+        line-height: 1;
+        padding-top: 2%;
+        font-size: .9rem;
+    }
+}
+.slick-slide img{
+    display: block;
+    height: 31rem;
+    width: 100%;
+
+}
+
+.slick-dotted.slick-slider{
+    margin-bottom: 0 !important;
+}
+
+

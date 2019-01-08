@@ -1,0 +1,30 @@
+.block-ImageHeader{
+    min-height: 25rem;
+    width: 100%;
+    background-image: url("../img/actulite.png");
+    background-size: cover;
+    background-position: bottom;
+    border-bottom: 10px solid $color-yellow;
+
+}
+
+.section__actualite{
+
+    img{
+        height: 40px;
+    }
+    &-text{
+        @include big-text;
+        text-align: center;
+        color:$color-bleu;
+    }
+}
+
+.section__document{
+    h3{
+        @include big-text;
+        font-weight: 900;
+        color:$color-gray;
+         text-align: center;
+    }
+}

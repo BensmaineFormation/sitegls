@@ -1,0 +1,33 @@
+
+.block-Imageheader{
+    min-height: 25rem;
+    width: 100%;
+    background-image: url("../img/rejoineznours.png");
+    background-size: cover;
+    background-position: bottom;
+    border-bottom: 10px solid $color-yellow;
+}
+.section__rejoigneznous{
+
+    padding: 20px;
+    margin-bottom: 5rem;
+    .title-form{
+        @include big-text;
+        font-weight: 600;
+        color: $color-gray;
+        border-left: 5px solid $color-bleu;
+        padding-left: 10px;
+    }
+
+    .desc-form{
+        @include small-text;
+        font-weight: 500;
+        color: $color-gray-light;
+        margin-top: -20px;
+        margin-left: 15px;
+    }
+    button{
+        background: $color-bleu;
+    }
+
+}

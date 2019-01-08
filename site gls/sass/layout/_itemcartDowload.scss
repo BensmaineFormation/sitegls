@@ -1,0 +1,29 @@
+.cart__dowload{
+    min-height: 10rem;
+    max-width: 24%;
+    margin: {
+        right: 5px;
+        left: 5px;
+    }
+    .img-cart{
+        margin-left: -8px;
+    }
+    .icon-download{
+        float: right;
+    }
+    a{
+        background: $color-bleu-light;
+        width: 100%;
+        border-radius: 0;
+        margin-bottom: 10px;
+        padding-left: 2rem;
+        line-height: 2;
+        @include small-text;
+        font-weight: 600;
+        color:$color-gray-light;
+    }
+  
+   
+
+    
+}

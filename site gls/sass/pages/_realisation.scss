@@ -1,0 +1,37 @@
+.content-list-cartResalisation{
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    .item{
+        padding-right: 6px !important;
+        padding-left: 6px  !important;
+    }
+    .item-scroll{
+        min-height: 14.2rem;
+        padding-top: 1rem;
+        margin-top: 0.5rem;
+        img{
+            height: 12rem;
+            margin-left: -13px;
+        }
+
+        .item-date{
+            @include small-text;
+            font-weight: 700;
+        }
+        .item-title{
+            @extend .item-date;
+        }
+        .item-para{
+            @extend .item-date;
+            font-size: .8rem;
+            font-weight: 500;
+        }
+        button{
+            background-color: $color-bleu;
+            color:$color-white;
+            float: right;
+        }
+    }
+    
+}
